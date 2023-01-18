@@ -6,14 +6,17 @@
 
     <groupId>org.example</groupId>
     <artifactId>sofka.inventarioapp</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-
+    <modules>
+        <module>Domain</module>
+        <module>Business</module>
+    </modules>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>co.com.sofka</groupId>
@@ -21,5 +24,4 @@
             <version>1.5.0</version>
         </dependency>
     </dependencies>
-
 </project>
