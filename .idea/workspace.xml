@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798294a0-20eb-4d4d-a804-61df0f95df6a" name="Changes" comment="Punto de control, se inicializa proyecto.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Lot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Packaging.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/CreateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/CreateProduct.java" afterDir="false" />
     </list>
     <list id="d65ffc38-b1c3-44ef-842d-e7baea304155" name="Changes by Andrés Castro" comment="">
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/Reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/Reference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/LoadCapicity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/LoadCapicity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-11",
+    "last_opened_file_path": "C:/Users/danil/OneDrive/Documents/training-sofka/programacion-reactiva/sofka.inventarioapp/Domain/src/main/java/org/example/product/entities",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
@@ -57,6 +62,13 @@
       <recent name="org.example.rack.values" />
       <recent name="org.example.rack" />
       <recent name="org.example.rack.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\OneDrive\Documents\training-sofka\programacion-reactiva\sofka.inventarioapp\Domain\src\main\java\org\example\product\entities" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.product.values" />
+      <recent name="org.example.product.commands" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,8 +79,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674081659420</updated>
+      <workItem from="1674096106468" duration="1812000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
