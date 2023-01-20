@@ -12,7 +12,7 @@ public class RackCreated extends DomainEvent {
         this.loadCapicity = loadCapicity;
     }
 
-    public LoadCapicity capacidadCarga() {
+    public LoadCapicity getLoadCapicity() {
         return loadCapicity;
     }
 }

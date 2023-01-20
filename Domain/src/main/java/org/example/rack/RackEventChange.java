@@ -10,7 +10,7 @@ import org.example.rack.events.SectionAdded;
 public class RackEventChange extends EventChange {
     public RackEventChange(Rack rack){
         apply((RackCreated event) -> {
-            rack.loadCapicity = event.capacidadCarga();
+            rack.loadCapicity = event.getLoadCapicity();
         });
 
         apply((LevelAdded event) -> {
