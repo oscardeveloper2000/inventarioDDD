@@ -2,16 +2,16 @@ package org.example.rack.values;
 
 import co.com.sofka.domain.generic.ValueObject;
 
-public class State implements ValueObject<Boolean>{
+public class State implements ValueObject<String>{
 
-    private final boolean status;
+    private final String status;
 
-    public State(boolean status) {
+    public State(String status) {
         this.status = status;
     }
 
     @Override
-    public Boolean value(){
+    public String value(){
         return this.status;
     }
 }
