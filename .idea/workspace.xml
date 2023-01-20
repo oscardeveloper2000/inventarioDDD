@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798294a0-20eb-4d4d-a804-61df0f95df6a" name="Changes" comment="Punto de control, se inicializa proyecto." />
+    <list default="true" id="798294a0-20eb-4d4d-a804-61df0f95df6a" name="Changes" comment="Punto de control, se inicializa proyecto.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="42b3d9e3-8566-45c3-8020-23a5252da4d9" name="Changes by Andrés Castro" comment="">
-      <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/CreateRackUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/CreateRackUseCaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/RackCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/RackCreated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddPackaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/AddGrocer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/AddGrocer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/AddSupervisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/AddSupervisor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +82,7 @@
       <recent name="org.example.product.commands" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CreateRackUseCaseTest">
+  <component name="RunManager" selected="JUnit.AddSectionUseCaseTest">
     <configuration name="AddLevelUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Business" />
       <extension name="coverage">
@@ -158,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674081659420</updated>
       <workItem from="1674096106468" duration="2731000" />
-      <workItem from="1674134263672" duration="18517000" />
+      <workItem from="1674134263672" duration="19012000" />
     </task>
     <servers />
   </component>

@@ -2,19 +2,19 @@ package org.example.warehouse.commands;
 
 import co.com.sofka.domain.generic.Command;
 import org.example.warehouse.values.PersonalData;
-import org.example.warehouse.values.SupervisorId;
+import org.example.warehouse.values.WarehouseId;
 
 public class AddSupervisor extends Command {
-    private final SupervisorId supervisorId;
+    private final WarehouseId warehouseId;
     private final PersonalData personalData;
 
-    public AddSupervisor(SupervisorId supervisorId, PersonalData personalData) {
-        this.supervisorId = supervisorId;
+    public AddSupervisor(WarehouseId warehouseId, PersonalData personalData) {
+        this.warehouseId = warehouseId;
         this.personalData = personalData;
     }
 
-    public SupervisorId getSupervisorId() {
-        return supervisorId;
+    public WarehouseId getWarehouseId() {
+        return warehouseId;
     }
 
     public PersonalData getPersonalData() {
