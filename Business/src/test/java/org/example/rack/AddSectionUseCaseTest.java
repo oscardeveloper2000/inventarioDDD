@@ -1,11 +1,10 @@
-package org.example;
+package org.example.rack;
 
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
-import org.example.rack.commands.AddLevel;
+import org.example.rack.AddSectionUseCase;
 import org.example.rack.commands.AddSection;
-import org.example.rack.events.LevelAdded;
 import org.example.rack.events.SectionAdded;
 import org.example.rack.values.RackId;
 import org.example.rack.values.Reference;
@@ -17,7 +16,6 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.junit.jupiter.api.Assertions.*;
 @ExtendWith(MockitoExtension.class)
 class AddSectionUseCaseTest {
     @InjectMocks

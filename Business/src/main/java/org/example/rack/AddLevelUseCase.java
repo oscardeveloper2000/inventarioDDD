@@ -1,4 +1,4 @@
-package org.example;
+package org.example.rack;
 
 import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;

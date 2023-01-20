@@ -14,7 +14,7 @@ public class ProductCreated extends DomainEvent {
         this.quantity = quantity;
     }
 
-    public Quantity quantity() {
+    public Quantity getQuantity() {
         return quantity;
     }
 }

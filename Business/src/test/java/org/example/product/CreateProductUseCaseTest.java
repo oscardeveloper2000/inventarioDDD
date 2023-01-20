@@ -1,13 +1,15 @@
-package org.example.rack;
+package org.example.product;
 
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
+import org.example.product.commands.CreateProduct;
+import org.example.product.events.ProductCreated;
+
+import org.example.product.values.ProductId;
+import org.example.product.values.Quantity;
 import org.example.rack.CreateRackUseCase;
-import org.example.rack.commands.CreateRack;
-import org.example.rack.events.RackCreated;
-import org.example.rack.values.LoadCapicity;
-import org.example.rack.values.RackId;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -15,34 +17,37 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+
 @ExtendWith(MockitoExtension.class)
-class CreateRackUseCaseTest {
+class CreateProductUseCaseTest {
+
 
     @InjectMocks
-    private CreateRackUseCase useCase;
+    private CreateProductUseCase useCase;
 
     @Mock
     private DomainEventRepository repository;
 
     @Test
-    void createRackHappyPass(){
+    void createProductHappyPass(){
         //arrange
 
-        RackId rackId = RackId.of("ffff");
-        LoadCapicity loadCapicity = new LoadCapicity(10);
-        var command = new CreateRack(rackId, loadCapicity);
+        ProductId productId = ProductId.of("AAA20");
+        Quantity quantity = new Quantity(20);
+        var command = new CreateProduct(productId, quantity);
 
         //act
 
         var events = UseCaseHandler.getInstance()
-                .setIdentifyExecutor(command.getRackId().value())
+                .setIdentifyExecutor(command.getProductId().value())
                 .syncExecutor(useCase, new RequestCommand<>(command))
                 .orElseThrow()
                 .getDomainEvents();
 
         //asserts
 
-        var event = (RackCreated)events.get(0);
-        Assertions.assertEquals(10,event.getLoadCapicity().value());
+        var event = (ProductCreated)events.get(0);
+        Assertions.assertEquals(20,event.getQuantity().value());
     }
+
 }

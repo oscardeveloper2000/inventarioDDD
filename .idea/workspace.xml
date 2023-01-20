@@ -6,12 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="798294a0-20eb-4d4d-a804-61df0f95df6a" name="Changes" comment="Punto de control, se inicializa proyecto.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/AddLevelUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/rack/AddLevelUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/AddSectionUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/rack/AddSectionUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/CreateRackUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/rack/CreateRackUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/AddLevelUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/rack/AddLevelUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/AddSectionUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/rack/AddSectionUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/CreateRackUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/rack/CreateRackUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/PackagingAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/PackagingAdded.java" afterDir="false" />
     </list>
-    <list id="42b3d9e3-8566-45c3-8020-23a5252da4d9" name="Changes by Andrés Castro" comment="">
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddPackaging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/AddGrocer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/AddGrocer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/AddSupervisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/AddSupervisor.java" afterDir="false" />
+    <list id="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" name="Changes by Andrés Castro" comment="">
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/ProductCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/ProductCreated.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +79,12 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.rack" />
+      <recent name="rack" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.product" />
       <recent name="org.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -82,34 +92,33 @@
       <recent name="org.example.product.commands" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddSectionUseCaseTest">
+  <component name="RunManager" selected="JUnit.CreateProductUseCaseTest">
     <configuration name="AddLevelUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Business" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.rack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AddLevelUseCaseTest" />
+      <option name="PACKAGE_NAME" value="org.example.rack" />
+      <option name="MAIN_CLASS_NAME" value="org.example.rack.AddLevelUseCaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddLevelUseCaseTest.addLevelHappyPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddLotUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Business" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AddLevelUseCaseTest" />
-      <option name="METHOD_NAME" value="addLevelHappyPass" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.example.product" />
+      <option name="MAIN_CLASS_NAME" value="org.example.product.AddLotUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,12 +127,27 @@
       <module name="Business" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.rack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AddSectionUseCaseTest" />
+      <option name="PACKAGE_NAME" value="org.example.rack" />
+      <option name="MAIN_CLASS_NAME" value="org.example.rack.AddSectionUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateProductUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.product" />
+      <option name="MAIN_CLASS_NAME" value="org.example.product.CreateProductUseCaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,12 +157,12 @@
       <module name="Business" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.rack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CreateRackUseCaseTest" />
+      <option name="PACKAGE_NAME" value="org.example.rack" />
+      <option name="MAIN_CLASS_NAME" value="org.example.rack.CreateRackUseCaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,10 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddLotUseCaseTest" />
+        <item itemvalue="JUnit.CreateProductUseCaseTest" />
         <item itemvalue="JUnit.CreateRackUseCaseTest" />
         <item itemvalue="JUnit.AddSectionUseCaseTest" />
         <item itemvalue="JUnit.AddLevelUseCaseTest" />
-        <item itemvalue="JUnit.AddLevelUseCaseTest.addLevelHappyPass" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674081659420</updated>
       <workItem from="1674096106468" duration="2731000" />
-      <workItem from="1674134263672" duration="19012000" />
+      <workItem from="1674134263672" duration="23032000" />
     </task>
     <servers />
   </component>

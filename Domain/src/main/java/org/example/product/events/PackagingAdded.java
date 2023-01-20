@@ -14,4 +14,16 @@ public class PackagingAdded extends DomainEvent {
         this.capacity = capacity;
         this.dimension = dimension;
     }
+
+    public PackagingId getPackagingId() {
+        return packagingId;
+    }
+
+    public Capacity getCapacity() {
+        return capacity;
+    }
+
+    public Dimension getDimension() {
+        return dimension;
+    }
 }
