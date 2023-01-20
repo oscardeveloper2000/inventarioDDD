@@ -12,7 +12,7 @@ public class WarehouseCreated extends DomainEvent {
         this.stock = stock;
     }
 
-    public Stock stock() {
+    public Stock getStock() {
         return stock;
     }
 

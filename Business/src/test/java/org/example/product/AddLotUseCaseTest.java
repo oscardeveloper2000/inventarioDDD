@@ -47,7 +47,7 @@ class AddLotUseCaseTest {
         //assert
 
         var event = (LotAdded)events.get(0);
-        Assertions.assertEquals(date,event.getDate().value());
+        Assertions.assertEquals(date,event.getDate());
     }
 
 }

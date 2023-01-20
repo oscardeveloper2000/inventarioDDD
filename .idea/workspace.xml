@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798294a0-20eb-4d4d-a804-61df0f95df6a" name="Changes" comment="Punto de control, se inicializa proyecto.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddLotUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddLotUseCaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddPackagingUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddPackagingUseCaseTest.java" afterDir="false" />
     </list>
     <list id="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" name="Changes by Andrés Castro" comment="">
       <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddPackagingUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddPackagingUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/events/WarehouseCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/events/WarehouseCreated.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,11 +39,9 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddPackagingUseCaseTest.java">
       <ranges>
-        <range start1="2" end1="2" start2="2" end2="15" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="3" end1="3" start2="16" end2="18" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="5" end1="5" start2="20" end2="23" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="9" end1="9" start2="27" end2="33" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="10" end1="11" start2="34" end2="59" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
+        <range start1="27" end1="27" start2="27" end2="33" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
+        <range start1="28" end1="34" start2="34" end2="34" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
+        <range start1="56" end1="56" start2="56" end2="57" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
       </ranges>
     </file>
   </component>
@@ -95,7 +97,7 @@
       <recent name="org.example.product.commands" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddLotUseCaseTest">
+  <component name="RunManager" selected="JUnit.AddPackagingUseCaseTest">
     <configuration name="AddLotUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Business" />
       <extension name="coverage">
@@ -174,9 +176,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddPackagingUseCaseTest.addPackagingHappyPass" />
         <item itemvalue="JUnit.AddLotUseCaseTest" />
         <item itemvalue="JUnit.AddPackagingUseCaseTest" />
-        <item itemvalue="JUnit.AddPackagingUseCaseTest.addPackagingHappyPass" />
         <item itemvalue="JUnit.CreateProductUseCaseTest" />
         <item itemvalue="JUnit.CreateRackUseCaseTest" />
       </list>
@@ -191,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674081659420</updated>
       <workItem from="1674096106468" duration="2731000" />
-      <workItem from="1674134263672" duration="23535000" />
+      <workItem from="1674134263672" duration="24614000" />
     </task>
     <servers />
   </component>

@@ -54,6 +54,7 @@ class AddPackagingUseCaseTest {
 
         var event = (PackagingAdded)events.get(0);
         Assertions.assertEquals(10,event.getCapacity().value());
+        Assertions.assertEquals(dimension, event.getDimension());
 
 
     }
