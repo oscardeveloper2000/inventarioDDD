@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798294a0-20eb-4d4d-a804-61df0f95df6a" name="Changes" comment="Punto de control, se inicializa proyecto.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Business/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Packaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Packaging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Capicity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Capacity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/entities/Supervisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/entities/Supervisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/AddSectionUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/AddSectionUseCaseTest.java" afterDir="false" />
     </list>
     <list id="42b3d9e3-8566-45c3-8020-23a5252da4d9" name="Changes by Andrés Castro" comment="">
-      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Lot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Lot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/entities/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/entities/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/entities/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/entities/Section.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/entities/Grocer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/entities/Grocer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/CreateRackUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/CreateRackUseCaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +31,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java">
-      <ranges>
-        <range start1="3" end1="3" start2="3" end2="4" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="5" end1="5" start2="6" end2="7" changelist="42b3d9e3-8566-45c3-8020-23a5252da4d9" />
-        <range start1="6" end1="8" start2="8" end2="15" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="18" end1="18" start2="25" end2="44" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="22" end1="22" start2="48" end2="56" changelist="42b3d9e3-8566-45c3-8020-23a5252da4d9" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,7 +79,7 @@
       <recent name="org.example.product.commands" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddLevelUseCaseTest">
+  <component name="RunManager" selected="JUnit.AddSectionUseCaseTest">
     <configuration name="AddLevelUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Business" />
       <extension name="coverage">
@@ -135,8 +111,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AddSectionUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AddSectionUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddSectionUseCaseTest" />
         <item itemvalue="JUnit.AddLevelUseCaseTest" />
         <item itemvalue="JUnit.AddLevelUseCaseTest.addLevelHappyPass" />
       </list>
@@ -151,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674081659420</updated>
       <workItem from="1674096106468" duration="2731000" />
-      <workItem from="1674134263672" duration="17702000" />
+      <workItem from="1674134263672" duration="18088000" />
     </task>
     <servers />
   </component>
