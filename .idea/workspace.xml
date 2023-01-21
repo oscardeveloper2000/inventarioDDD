@@ -6,13 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="798294a0-20eb-4d4d-a804-61df0f95df6a" name="Changes" comment="Punto de control, se inicializa proyecto.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddLotUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddLotUseCaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddPackagingUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddPackagingUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/warehouse/AddGrocerUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/warehouse/AddGrocerUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/WarehouseEventChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/WarehouseEventChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/Stock.java" afterDir="false" />
     </list>
     <list id="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" name="Changes by Andrés Castro" comment="">
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/warehouse/AddSupervisorUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/warehouse/AddSupervisorUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/warehouse/CreateWarehouseUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/warehouse/CreateWarehouseUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddLotUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddLotUseCaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddPackagingUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddPackagingUseCaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/Warehouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/events/WarehouseCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/events/WarehouseCreated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/ProductEventChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/ProductEventChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Quantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/RackEventChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/RackEventChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/LoadCapicity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/LoadCapicity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/WarehouseEventChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/WarehouseEventChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/Stock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -37,11 +48,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Business/src/test/java/org/example/product/AddPackagingUseCaseTest.java">
+    <file path="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/WarehouseEventChange.java">
       <ranges>
-        <range start1="27" end1="27" start2="27" end2="33" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="28" end1="34" start2="34" end2="34" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="56" end1="56" start2="56" end2="57" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
+        <range start1="3" end1="3" start2="3" end2="4" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
+        <range start1="6" end1="6" start2="7" end2="8" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
+        <range start1="24" end1="24" start2="26" end2="30" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/Stock.java">
+      <ranges>
+        <range start1="3" end1="3" start2="3" end2="4" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
+        <range start1="5" end1="6" start2="6" end2="7" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
+        <range start1="9" end1="11" start2="10" end2="12" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
+        <range start1="15" end1="15" start2="16" end2="20" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
+        <range start1="19" end1="20" start2="24" end2="25" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
+        <range start1="32" end1="33" start2="37" end2="38" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
       </ranges>
     </file>
   </component>
@@ -89,7 +110,9 @@
       <recent name="rack" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.warehouse" />
       <recent name="org.example.product" />
+      <recent name="org.example.rack" />
       <recent name="org.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -97,8 +120,8 @@
       <recent name="org.example.product.commands" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddPackagingUseCaseTest">
-    <configuration name="AddLotUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AddLotUseCaseTest.addLotHappyPass">
+    <configuration name="AddLotUseCaseTest.addLotHappyPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Business" />
       <extension name="coverage">
         <pattern>
@@ -108,58 +131,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.product" />
       <option name="MAIN_CLASS_NAME" value="org.example.product.AddLotUseCaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddPackagingUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Business" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.product" />
-      <option name="MAIN_CLASS_NAME" value="org.example.product.AddPackagingUseCaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddPackagingUseCaseTest.addPackagingHappyPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Business" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.product" />
-      <option name="MAIN_CLASS_NAME" value="org.example.product.AddPackagingUseCaseTest" />
-      <option name="METHOD_NAME" value="addPackagingHappyPass" />
+      <option name="METHOD_NAME" value="addLotHappyPass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateProductUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateWarehouseUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Business" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.product.*" />
+          <option name="PATTERN" value="org.example.warehouse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.product" />
-      <option name="MAIN_CLASS_NAME" value="org.example.product.CreateProductUseCaseTest" />
+      <option name="PACKAGE_NAME" value="org.example.warehouse" />
+      <option name="MAIN_CLASS_NAME" value="org.example.warehouse.CreateWarehouseUseCaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateRackUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateLoadCapacityUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Business" />
       <extension name="coverage">
         <pattern>
@@ -168,7 +161,37 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.rack" />
-      <option name="MAIN_CLASS_NAME" value="org.example.rack.CreateRackUseCaseTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.rack.UpdateLoadCapacityUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateQuantityUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.product" />
+      <option name="MAIN_CLASS_NAME" value="org.example.product.UpdateQuantityUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateStockUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.warehouse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.warehouse" />
+      <option name="MAIN_CLASS_NAME" value="org.example.warehouse.UpdateStockUseCaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddPackagingUseCaseTest.addPackagingHappyPass" />
-        <item itemvalue="JUnit.AddLotUseCaseTest" />
-        <item itemvalue="JUnit.AddPackagingUseCaseTest" />
-        <item itemvalue="JUnit.CreateProductUseCaseTest" />
-        <item itemvalue="JUnit.CreateRackUseCaseTest" />
+        <item itemvalue="JUnit.CreateWarehouseUseCaseTest" />
+        <item itemvalue="JUnit.UpdateStockUseCaseTest" />
+        <item itemvalue="JUnit.UpdateQuantityUseCaseTest" />
+        <item itemvalue="JUnit.UpdateLoadCapacityUseCaseTest" />
+        <item itemvalue="JUnit.AddLotUseCaseTest.addLotHappyPass" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +216,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674081659420</updated>
       <workItem from="1674096106468" duration="2731000" />
-      <workItem from="1674134263672" duration="24614000" />
+      <workItem from="1674134263672" duration="33019000" />
     </task>
     <servers />
   </component>

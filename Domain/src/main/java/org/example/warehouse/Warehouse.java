@@ -5,6 +5,7 @@ import co.com.sofka.domain.generic.DomainEvent;
 import org.example.warehouse.entities.Grocer;
 import org.example.warehouse.entities.Supervisor;
 import org.example.warehouse.events.GrocerAdded;
+import org.example.warehouse.events.StockUpdated;
 import org.example.warehouse.events.SupervisorAdded;
 import org.example.warehouse.events.WarehouseCreated;
 import org.example.warehouse.values.*;
@@ -41,6 +42,18 @@ public class Warehouse extends AggregateEvent<WarehouseId> {
     public void addSupervisor(PersonalData personalData){
         var supervisorId = new SupervisorId();
         appendChange(new SupervisorAdded(supervisorId, personalData)).apply();
+    }
+
+    public void updateStock(WarehouseId warehouseId, Stock stock){
+        appendChange(new StockUpdated(warehouseId, stock)).apply();
+    }
+
+    public Grocer getGrocer(){
+        return grocer;
+    }
+
+    public Supervisor getSupervisor(){
+        return supervisor;
     }
 
     public Stock getStock(){

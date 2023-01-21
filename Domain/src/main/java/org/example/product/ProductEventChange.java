@@ -6,6 +6,7 @@ import org.example.product.entities.Packaging;
 import org.example.product.events.LotAdded;
 import org.example.product.events.PackagingAdded;
 import org.example.product.events.ProductCreated;
+import org.example.product.events.QuantityUpdated;
 
 
 public class ProductEventChange extends EventChange {
@@ -22,6 +23,10 @@ public class ProductEventChange extends EventChange {
         apply((PackagingAdded event) -> {
             var packagingId = event.getPackagingId();
             var packaging = new Packaging(packagingId, event.getDimension(),event.getCapacity() );
+        });
+
+        apply((QuantityUpdated event) -> {
+            product.quantity = event.getQuantity();
         });
     }
 }

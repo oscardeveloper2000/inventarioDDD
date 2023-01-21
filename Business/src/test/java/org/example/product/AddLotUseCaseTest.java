@@ -3,6 +3,7 @@ package org.example.product;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
+import net.bytebuddy.asm.Advice;
 import org.example.product.commands.AddLot;
 import org.example.product.events.LotAdded;
 import org.example.product.values.Date;
@@ -47,7 +48,8 @@ class AddLotUseCaseTest {
         //assert
 
         var event = (LotAdded)events.get(0);
-        Assertions.assertEquals(date,event.getDate());
+        Assertions.assertEquals(LocalDate.now(),event.getDate().value().manufacturingDate());
+        Assertions.assertEquals(LocalDate.now().plus(30, ChronoUnit.DAYS),event.getDate().value().dueDate());
     }
 
 }

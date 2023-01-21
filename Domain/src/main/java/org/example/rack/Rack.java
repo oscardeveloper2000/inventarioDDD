@@ -5,6 +5,7 @@ import co.com.sofka.domain.generic.DomainEvent;
 import org.example.rack.entities.Level;
 import org.example.rack.entities.Section;
 import org.example.rack.events.LevelAdded;
+import org.example.rack.events.LoadCapacityUpdated;
 import org.example.rack.events.RackCreated;
 import org.example.rack.events.SectionAdded;
 import org.example.rack.values.*;
@@ -41,6 +42,10 @@ public class Rack extends AggregateEvent<RackId> {
     public void addSection(State state, Reference reference) {
         var sectionId = new SectionId();
         appendChange(new SectionAdded(sectionId, reference, state)).apply();
+    }
+
+    public void updateLoadCapacity(RackId rackId, LoadCapicity loadCapicity){
+        appendChange(new LoadCapacityUpdated(rackId, loadCapicity)).apply();
     }
 
     public LoadCapicity getCapacidadCarga(){

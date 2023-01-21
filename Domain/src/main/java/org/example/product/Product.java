@@ -7,9 +7,11 @@ import org.example.product.entities.Packaging;
 import org.example.product.events.LotAdded;
 import org.example.product.events.PackagingAdded;
 import org.example.product.events.ProductCreated;
+import org.example.product.events.QuantityUpdated;
 import org.example.product.values.*;
 import org.example.rack.RackEventChange;
 import org.example.rack.events.LevelAdded;
+import org.example.rack.events.LoadCapacityUpdated;
 import org.example.rack.events.SectionAdded;
 import org.example.rack.values.LevelId;
 import org.example.rack.values.Reference;
@@ -47,11 +49,20 @@ public class Product extends AggregateEvent<ProductId> {
         var packagingId = new PackagingId();
         appendChange(new PackagingAdded(packagingId, capacity, dimension)).apply();
     }
+
+    public void updateQuantity(ProductId productId, Quantity quantity){
+        appendChange(new QuantityUpdated(productId, quantity)).apply();
+    }
+
     public Quantity getQuantity() {
         return quantity;
     }
 
     public Lot getLot() {
         return lot;
+    }
+
+    public Packaging getPackaging(){
+        return packaging;
     }
 }

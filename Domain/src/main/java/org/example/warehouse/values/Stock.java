@@ -1,23 +1,28 @@
 package org.example.warehouse.values;
 
 import co.com.sofka.domain.generic.ValueObject;
+import org.example.rack.values.LoadCapicity;
 
 public class Stock implements ValueObject<Stock.Props> {
-    private final String capicity;
+    private final String capacity;
     private final String status;
     private final int quantity;
 
-    public Stock(String capicity, String status, int quantity) {
-        this.capicity = capicity;
+    public Stock(String capacity, String status, int quantity) {
+        this.capacity = capacity;
         this.status = status;
         this.quantity = quantity;
+    }
+
+    public static Stock of(String capacity, String status, int quantity){
+        return new Stock(capacity, status, quantity);
     }
 
     @Override
     public Stock.Props value() {
         return new Props() {
             @Override
-            public String capicity() { return capicity; }
+            public String capacity() { return capacity; }
             @Override
             public String status() {
                 return status;
@@ -30,7 +35,7 @@ public class Stock implements ValueObject<Stock.Props> {
     }
 
     public interface Props {
-        String capicity();
+        String capacity();
         String status();
         int quantity();
     }

@@ -4,6 +4,7 @@ import co.com.sofka.domain.generic.EventChange;
 import org.example.rack.entities.Level;
 import org.example.rack.entities.Section;
 import org.example.rack.events.LevelAdded;
+import org.example.rack.events.LoadCapacityUpdated;
 import org.example.rack.events.RackCreated;
 import org.example.rack.events.SectionAdded;
 
@@ -21,6 +22,10 @@ public class RackEventChange extends EventChange {
         apply((SectionAdded event) -> {
             var sectionId = event.getSectionId();
             var section = new Section(sectionId, event.getState(), event.getReference());
+        });
+
+        apply((LoadCapacityUpdated event) -> {
+                rack.loadCapicity = event.getLoadCapicity();
         });
     }
 }

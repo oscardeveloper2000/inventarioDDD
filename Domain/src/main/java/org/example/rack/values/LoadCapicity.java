@@ -10,6 +10,10 @@ public class LoadCapicity implements ValueObject<Integer>{
         this.load = load;
     }
 
+    public static LoadCapicity of(int load) {
+        return new LoadCapicity(load);
+    }
+
     @Override
     public Integer value(){
         return this.load;

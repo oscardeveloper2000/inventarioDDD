@@ -10,6 +10,10 @@ public class Quantity implements ValueObject<Integer> {
         this.quantity = quantity;
     }
 
+    public static Quantity of(int quantity){
+        return new Quantity(quantity);
+    }
+
     @Override
     public Integer value(){
         return this.quantity;
