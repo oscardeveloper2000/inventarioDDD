@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798294a0-20eb-4d4d-a804-61df0f95df6a" name="Changes" comment="Punto de control, se inicializa proyecto.">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_01_2023_5_51_p__m___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_01_2023_5_51_p__m___Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/ProductEventChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/ProductEventChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddPackaging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/CreateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/CreateProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/UpdateQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/UpdateQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Lot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Lot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Packaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Packaging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/LotAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/LotAdded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/PackagingAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/PackagingAdded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/ProductCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/ProductCreated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/QuantityUpdated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/QuantityUpdated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Capacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Capacity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Dimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Dimension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/LotId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/LotId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/PackagingId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/PackagingId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/ProductId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/ProductId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Quantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/RackEventChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/RackEventChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/entities/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/entities/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/entities/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/entities/Section.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/LevelAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/LevelAdded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/LoadCapacityUpdated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/LoadCapacityUpdated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/RackCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/RackCreated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/SectionAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/SectionAdded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/LevelId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/LevelId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/LoadCapicity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/LoadCapicity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/RackId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/RackId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/Reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/Reference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/SectionId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/SectionId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/State.java" afterDir="false" />
-    </list>
+    <list default="true" id="798294a0-20eb-4d4d-a804-61df0f95df6a" name="Changes" comment="" />
     <list id="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" name="Changes by Andrés Castro" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
