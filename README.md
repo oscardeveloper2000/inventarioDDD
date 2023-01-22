@@ -40,10 +40,14 @@ Se entregan 12 casos de usos completamente testeados y funcionales
 ![image](https://user-images.githubusercontent.com/121882462/213939653-f07307f2-20cf-4fd9-be59-c3e8ca8023d7.png)
 
 
-## Construido con
+## :wrench: Construido con 
 Java 11 / Spring 2.7.7 / junit / mockito
 
+* Intellij Idea
+
+![](https://dashboard.snapcraft.io/site_media/appmedia/2017/10/logo_zjwX5FR.png)
+
 ## Desarrollado por
-#### Andres Castro
-#### Oscar Sanabria
+#### [@Nirsch95](https://github.com/Nirsch95) - Andrés Castro :wolf:
+#### [oscardeveloper2000](https://github.com/oscardeveloper2000) - Oscar Sanabria
 Hecho con :heart: para SofkaU
