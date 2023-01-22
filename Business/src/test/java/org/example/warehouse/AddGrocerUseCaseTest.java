@@ -4,9 +4,7 @@ import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
 import org.example.warehouse.commands.AddGrocer;
-import org.example.warehouse.commands.AddSupervisor;
 import org.example.warehouse.events.GrocerAdded;
-import org.example.warehouse.events.SupervisorAdded;
 import org.example.warehouse.values.PersonalData;
 import org.example.warehouse.values.WarehouseId;
 import org.junit.jupiter.api.Assertions;
@@ -16,13 +14,21 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.junit.jupiter.api.Assertions.*;
+/**
+ * Esta clase representa el test de Agegar Bodeguero
+ *
+ * @author Andrés Felipe Castro Manzano <castromanzano95@gmail.com>
+ * @author Oscar Danilo Sanabria <oscarsanabria@unisangil.edu.co>
+ * @version 010.00.00 2023-01-21
+ * @since 1.0.0
+ */
 @ExtendWith(MockitoExtension.class)
 class AddGrocerUseCaseTest {
 
     @InjectMocks
     private AddGrocerUseCase useCase;
 
+    // Inyección del repositorio
     @Mock
     private DomainEventRepository repository;
 

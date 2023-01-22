@@ -19,13 +19,20 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.util.List;
 
 import static org.mockito.Mockito.when;
-
+/**
+ * Esta clase representa el test de Actualizar Stock
+ *
+ * @author Andrés Felipe Castro Manzano <castromanzano95@gmail.com>
+ * @author Oscar Danilo Sanabria <oscarsanabria@unisangil.edu.co>
+ * @version 010.00.00 2023-01-21
+ * @since 1.0.0
+ */
 @ExtendWith(MockitoExtension.class)
 class UpdateStockUseCaseTest {
-
+    // Inyección del caso de uso
     @InjectMocks
     private UpdateStockUseCase useCase;
-
+    // Inyección del repositorio
     @Mock
     private DomainEventRepository repository;
 
