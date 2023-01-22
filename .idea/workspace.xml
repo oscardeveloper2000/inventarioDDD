@@ -5,12 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798294a0-20eb-4d4d-a804-61df0f95df6a" name="Changes" comment="Punto de control, se inicializa proyecto.">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_01_2023_5_51_p__m___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_01_2023_5_51_p__m___Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/ProductEventChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/ProductEventChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/AddPackaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/CreateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/CreateProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/UpdateQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/commands/UpdateQuantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Lot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Lot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Packaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/entities/Packaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/LotAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/LotAdded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/PackagingAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/PackagingAdded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/ProductCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/ProductCreated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/QuantityUpdated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/events/QuantityUpdated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Capacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Capacity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Dimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Dimension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/LotId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/LotId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/PackagingId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/PackagingId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/ProductId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/ProductId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/values/Quantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/RackEventChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/RackEventChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/entities/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/entities/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/entities/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/entities/Section.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/LevelAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/LevelAdded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/LoadCapacityUpdated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/LoadCapacityUpdated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/RackCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/RackCreated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/SectionAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/events/SectionAdded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/LevelId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/LevelId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/LoadCapicity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/LoadCapicity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/RackId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/RackId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/Reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/Reference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/SectionId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/SectionId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/State.java" afterDir="false" />
     </list>
-    <list id="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" name="Changes by Andrés Castro" comment="">
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java" afterDir="false" />
-    </list>
+    <list id="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" name="Changes by Andrés Castro" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,26 +63,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java">
-      <ranges>
-        <range start1="11" end1="20" start2="11" end2="11" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="22" end1="23" start2="13" end2="21" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="24" end1="24" start2="22" end2="25" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="25" end1="25" start2="26" end2="29" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="26" end1="26" start2="30" end2="33" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="28" end1="28" start2="35" end2="40" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="32" end1="32" start2="44" end2="49" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="36" end1="36" start2="53" end2="60" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="42" end1="42" start2="66" end2="70" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="47" end1="47" start2="75" end2="80" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="52" end1="52" start2="85" end2="90" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="56" end1="56" start2="94" end2="98" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="60" end1="60" start2="102" end2="106" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="64" end1="64" start2="110" end2="114" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -71,7 +81,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/OneDrive/Documents/training-sofka/programacion-reactiva/sofka.inventarioapp/Domain/src/main/java/org/example/product/entities&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/felix/Desktop/Training/inventarioDDD&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -107,7 +117,7 @@
       <recent name="org.example.product.commands" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddLotUseCaseTest.addLotHappyPass">
+  <component name="RunManager" selected="JUnit.UpdateStockUseCaseTest">
     <configuration name="AddLotUseCaseTest.addLotHappyPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Business" />
       <extension name="coverage">
@@ -186,8 +196,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CreateWarehouseUseCaseTest" />
         <item itemvalue="JUnit.UpdateStockUseCaseTest" />
+        <item itemvalue="JUnit.CreateWarehouseUseCaseTest" />
         <item itemvalue="JUnit.UpdateQuantityUseCaseTest" />
         <item itemvalue="JUnit.UpdateLoadCapacityUseCaseTest" />
         <item itemvalue="JUnit.AddLotUseCaseTest.addLotHappyPass" />
@@ -216,7 +226,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
