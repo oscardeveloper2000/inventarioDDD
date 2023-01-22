@@ -18,8 +18,7 @@ public class RackId extends Identity {
     public RackId(){}
 
     /**
-     * Representa el metodo para retornar una instancia
-     * de RackId
+     * Reprenseta el constructor de la identidad RackId
      * @param id
      */
     private RackId(String id){

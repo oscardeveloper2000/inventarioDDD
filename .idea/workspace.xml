@@ -4,12 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53fe2806-e652-4e9b-bb9a-11f11cfdcbec" name="Changes" comment="workspace">
+    <list default="true" id="53fe2806-e652-4e9b-bb9a-11f11cfdcbec" name="Changes" comment="Punto de control, Documentación del Domain por terminar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/commands/AddLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/commands/AddLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/commands/AddSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/commands/AddSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/commands/CreateRack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/commands/CreateRack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/commands/UpdateLoadCapacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/commands/UpdateLoadCapacity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/Rack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/RackId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/rack/values/RackId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/WarehouseEventChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/WarehouseEventChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/AddGrocer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/AddGrocer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/AddSupervisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/AddSupervisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/CreateWarehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/CreateWarehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/UpdateStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/commands/UpdateStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/entities/Grocer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/entities/Grocer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/entities/Supervisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/entities/Supervisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/events/GrocerAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/events/GrocerAdded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/events/StockUpdated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/events/StockUpdated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/events/SupervisorAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/events/SupervisorAdded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/events/WarehouseCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/events/WarehouseCreated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/GrocerId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/GrocerId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/PersonalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/PersonalData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/SupervisorId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/SupervisorId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/WarehouseId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/warehouse/values/WarehouseId.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +201,14 @@
       <workItem from="1674134263672" duration="33019000" />
       <workItem from="1674313802959" duration="1702000" />
     </task>
+    <task id="LOCAL-00001" summary="Punto de control, Documentación del Domain por terminar">
+      <created>1674421985338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674421985338</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +231,13 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="148" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="79" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="34" />
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -216,6 +246,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+    <MESSAGE value="Punto de control, Documentación del Domain por terminar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Punto de control, Documentación del Domain por terminar" />
   </component>
 </project>

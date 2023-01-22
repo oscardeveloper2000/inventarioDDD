@@ -68,7 +68,7 @@ public class Rack extends AggregateEvent<RackId> {
     }
 
     /**
-     * Representa el metodo que agrega un nivel al agregado product
+     * Representa el metodo que agrega un nivel al agregado Ract
      * @param state
      * @param reference
      */
@@ -78,7 +78,7 @@ public class Rack extends AggregateEvent<RackId> {
     }
 
     /**
-     * Representa el metodo que agrega una sección al agregado product
+     * Representa el metodo que agrega una sección al agregado Rack
      * @param state
      * @param reference
      */
