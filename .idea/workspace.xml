@@ -6,10 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="798294a0-20eb-4d4d-a804-61df0f95df6a" name="Changes" comment="Punto de control, se inicializa proyecto.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java" afterDir="false" />
-    </list>
-    <list id="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" name="Changes by Andrés Castro" comment="">
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/product/AddLotUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/product/AddLotUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/product/AddPackagingUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/product/AddPackagingUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/product/CreateProductUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/product/CreateProductUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/product/UpdateQuantityUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/product/UpdateQuantityUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/rack/AddLevelUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/rack/AddLevelUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/rack/AddSectionUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/rack/AddSectionUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/rack/CreateRackUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/rack/CreateRackUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/rack/UpdateLoadCapacityUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/rack/UpdateLoadCapacityUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/warehouse/AddGrocerUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/warehouse/AddGrocerUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/src/main/java/org/example/warehouse/AddSupervisorUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Business/src/main/java/org/example/warehouse/AddSupervisorUseCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,26 +38,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Domain/src/main/java/org/example/product/Product.java">
-      <ranges>
-        <range start1="11" end1="20" start2="11" end2="11" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="22" end1="23" start2="13" end2="21" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="24" end1="24" start2="22" end2="25" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="25" end1="25" start2="26" end2="29" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="26" end1="26" start2="30" end2="33" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="28" end1="28" start2="35" end2="40" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="32" end1="32" start2="44" end2="49" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="36" end1="36" start2="53" end2="60" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="42" end1="42" start2="66" end2="70" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="47" end1="47" start2="75" end2="80" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="52" end1="52" start2="85" end2="90" changelist="6f5ec39e-c021-47cf-8a3b-f70a805e2b16" />
-        <range start1="56" end1="56" start2="94" end2="98" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="60" end1="60" start2="102" end2="106" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-        <range start1="64" end1="64" start2="110" end2="114" changelist="798294a0-20eb-4d4d-a804-61df0f95df6a" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -204,7 +190,7 @@
       <updated>1674081659420</updated>
       <workItem from="1674096106468" duration="2731000" />
       <workItem from="1674134263672" duration="33019000" />
-      <workItem from="1674313802959" duration="1702000" />
+      <workItem from="1674313802959" duration="5923000" />
     </task>
     <servers />
   </component>
